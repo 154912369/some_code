@@ -6,7 +6,7 @@ i=1 #表示第i个节点的next_ans
 compare_pointer=0 # 表示前缀的最后一个char 再加一
 while i<len(pattern):
     if pattern[i]==pattern[compare_pointer]:
-        next_pointer.append(next_pointer[i-1]+1)
+        next_pointer.append(compare_pointer+1)
         compare_pointer+=1
         i+=1
     elif compare_pointer==0:
