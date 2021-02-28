@@ -1,6 +1,6 @@
 pattern="abcabd"
 search_str="abcabcabcabd"
-next_pointer=[0] #表示下次比较的地址
+next_pointer=[0] #表示和第compare_pointe个char比较不相等时,下次比较的地址
 
 i=1 #表示第i个节点的next_ans
 compare_pointer=0 # 表示前缀的最后一个char 再加一
